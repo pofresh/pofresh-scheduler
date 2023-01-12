@@ -1,4 +1,4 @@
-const schedule = require('pofresh-scheduler');
+const schedule = require('../lib/schedule');
 
 const cronJob = function () {
     console.log('doing %s', Date.now())
